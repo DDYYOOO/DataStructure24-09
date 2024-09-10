@@ -1,5 +1,7 @@
 ﻿  Complexity.cpp
-C:\Users\Administrator\source\repos\DataStructure\Complexity.cpp(55,47): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\DataStructure24-09\DataStructure\Complexity.cpp(70,47): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Main.cpp
+  OT.cpp
   코드를 생성하고 있습니다...
-  DataStructure.vcxproj -> C:\Users\Administrator\source\repos\DataStructure\x64\Debug\DataStructure.exe
+  LINK : C:\Users\Administrator\Desktop\DataStructure24-09\DataStructure\x64\Debug\DataStructure.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  DataStructure.vcxproj -> C:\Users\Administrator\Desktop\DataStructure24-09\DataStructure\x64\Debug\DataStructure.exe

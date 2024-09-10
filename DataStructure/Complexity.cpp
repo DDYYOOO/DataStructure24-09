@@ -53,6 +53,8 @@ void Example01()
 	// 시간 복잡도 : O()
 	// 공간 복잡도 : O()
 
+	int time = 0;
+	int space = 3;
 	int sum = 0;
 
 	for (int i = 0; i < 10; i++)
@@ -62,6 +64,9 @@ void Example01()
 			sum += sum + j;
 		}
 	}
+
+	std::cout << "시간 복잡도 : O(" << time << ")" << std::endl;
+	std::cout << "공간 복잡도 : O(" << space << ")" << std::endl;
 }
 
 // 공간 복잡도 예시
