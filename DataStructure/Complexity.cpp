@@ -53,7 +53,7 @@ void Example01()
 	// 시간 복잡도 : O()
 	// 공간 복잡도 : O()
 
-	int time = 0;
+	int time = 61;
 	int space = 3;
 	int sum = 0;
 

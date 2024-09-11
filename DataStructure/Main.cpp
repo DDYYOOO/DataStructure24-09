@@ -1,8 +1,12 @@
 #include"Complexity.h"
+#include"LinkedList.h"
+#include"lectures.h"
 
 int main()
 {
-	lecture1();
+	//lecture1();
 
-	Example01();
+	//Example01();
+
+	lecture2();
 }
