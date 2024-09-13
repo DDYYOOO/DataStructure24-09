@@ -48,6 +48,9 @@
     <ClCompile Include="lecture3.cpp">
       <Filter>소스 파일\강의</Filter>
     </ClCompile>
+    <ClCompile Include="lecture4.cpp">
+      <Filter>소스 파일\강의</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedList.h">
@@ -61,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="lectures.h">
       <Filter>헤더 파일\강의</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularLinkedList.h">
+      <Filter>헤더 파일\자료구조</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
