@@ -141,6 +141,7 @@
     <ClInclude Include="CircularLinkedList.h" />
     <ClInclude Include="Complexity.h" />
     <ClInclude Include="DoubliyLinkedList.h" />
+    <ClInclude Include="GameRoom.h" />
     <ClInclude Include="lectures.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="MyVector.h" />
