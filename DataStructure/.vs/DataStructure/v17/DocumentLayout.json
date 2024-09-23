@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\CircularLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:CircularLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\MyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:MyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\DoubliyLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:DoubliyLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\lecture4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:lecture4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\GameHistory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:GameHistory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DoubliyLinkedList.cpp",
-              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\DoubliyLinkedList.cpp",
-              "RelativeDocumentMoniker": "DoubliyLinkedList.cpp",
-              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\DoubliyLinkedList.cpp",
-              "RelativeToolTip": "DoubliyLinkedList.cpp",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAADoAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-16T14:22:18.329Z",
+              "DocumentIndex": 2,
+              "Title": "GameHistory.h",
+              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\GameHistory.h",
+              "RelativeDocumentMoniker": "GameHistory.h",
+              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\GameHistory.h",
+              "RelativeToolTip": "GameHistory.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-23T08:02:03.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CircularLinkedList.h",
-              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\CircularLinkedList.h",
-              "RelativeDocumentMoniker": "CircularLinkedList.h",
-              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\CircularLinkedList.h",
-              "RelativeToolTip": "CircularLinkedList.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Title": "MyStack.h",
+              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\MyStack.h",
+              "RelativeDocumentMoniker": "MyStack.h",
+              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\MyStack.h",
+              "RelativeToolTip": "MyStack.h",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAHwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-16T14:21:36.118Z",
+              "WhenOpened": "2024-09-23T07:02:13.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "lecture4.cpp",
-              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\lecture4.cpp",
-              "RelativeDocumentMoniker": "lecture4.cpp",
-              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\lecture4.cpp",
-              "RelativeToolTip": "lecture4.cpp",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAAAB0AAAAKAAAA",
+              "DocumentIndex": 1,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-16T14:21:36.334Z",
+              "WhenOpened": "2024-09-23T06:59:43.694Z",
               "EditorCaption": ""
             }
           ]
