@@ -14,6 +14,7 @@ int main()
 	//lecture4();
 	//lecture5();
 	//IGameRoomExample();
-	StackExample();
-	iGameHistoryExample();
+	//StackExample();
+	//iGameHistoryExample();
+	lecture6();
 }
