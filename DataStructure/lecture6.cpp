@@ -135,10 +135,9 @@ string changePostFix(string target)
 		}
 		else if (target[i] == ')') // 닫는 괄호를 만난다면 맨위에 있는 결과값이 여는 괄호를 만날때까지 pop함
 		{
-			stack.pop();
 			while (stack.top() != '(')
 			{
-				prefix += target[i];   // 연산자는 결과에 추가
+				prefix += stack.top();   // 연산자는 결과에 추가 <<- 스택에서 출력해야 하기 때문에 stack.top()으로 변경
 				stack.pop();
 			}
 			stack.pop();  // '(' 괄호를 pop해서 스택에서 없앤다.
@@ -148,7 +147,7 @@ string changePostFix(string target)
 		{
 			while (!stack.empty() && priority(stack.top()) >= priority(target[i]))  // 규칙2 또는 규칙3이 아닐 때(규칙4) pop
 			{
-				prefix += target[i];
+				prefix += stack.top();
 				stack.pop();
 			}
 

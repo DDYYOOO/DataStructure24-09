@@ -140,12 +140,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircularLinkedList.h" />
+    <ClInclude Include="CommandSystem.h" />
     <ClInclude Include="Complexity.h" />
     <ClInclude Include="DoubliyLinkedList.h" />
     <ClInclude Include="GameHistory.h" />
     <ClInclude Include="GameRoom.h" />
     <ClInclude Include="lectures.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="MyQueue.h" />
     <ClInclude Include="MyStack.h" />
     <ClInclude Include="MyVector.h" />
     <ClInclude Include="RandomNumber.h" />
