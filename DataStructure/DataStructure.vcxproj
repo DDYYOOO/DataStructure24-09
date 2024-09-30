@@ -145,6 +145,7 @@
     <ClInclude Include="DoubliyLinkedList.h" />
     <ClInclude Include="GameHistory.h" />
     <ClInclude Include="GameRoom.h" />
+    <ClInclude Include="heap.h" />
     <ClInclude Include="iterator.h" />
     <ClInclude Include="lectures.h" />
     <ClInclude Include="LinkedList.h" />

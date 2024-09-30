@@ -1,13 +1,31 @@
 #pragma once
 #include<iostream>
 #include<vector>
+#include<string>
 
 // 포인터 사용법
 
 // int abc;
 // int* intptr = &abc;
 // 포인터 연산자 : *intptr, intptr++, ++intptr, intptr == , intptr !=
-// 
+
+// class Item -> inventory 자료구조 -> std::vector<float>... Item.Print(), 포인터 
+
+// vector<Item> inventory
+
+class Item
+{
+private:
+	float time;
+	int idx;
+public:
+	Item() {}
+	Item(float _time, int _idx) : time(_time), idx(_idx) {}
+	void Print()
+	{
+		std::cout << "NO." << idx << " 아이템 이름 : " << time << std::endl;
+	}
+};
 
 template<typename T>
 class Container
@@ -17,50 +35,52 @@ private:
 	int size;
 	int capacity;
 
-	class iterator
+	class Iterator
 	{
 	private:
 		T* ptr;
 	public:
-		iterator() : ptr(nullptr) {}
-		iterator(T* _ptr) : ptr(ptr) {}
+		Iterator() : ptr(nullptr) {}
+		Iterator(T* _ptr) : ptr(_ptr) {}
 
 		T& operator*()
 		{
 			return *ptr;
 		}
 		//전위 연산자 ++it
-		iterator& operator++()
+		Iterator& operator++()
 		{
 			ptr++;
 			return *this;
 		}
 		// 후위 연산자 it++
-		iterator& operator++(int)
+		Iterator& operator++(int)
 		{
-			iterator temp = this;
+			Iterator temp = *this;
 			ptr++;
 			return temp;
 		}
 
-		bool operator==(const iterator& other)
+		bool operator==(const Iterator& other)
 		{
 			return ptr == other.ptr;
 		}
 
-		bool operator!=(const iterator& other)
+		bool operator!=(const Iterator& other)
 		{
 			return ptr != other.ptr;
 		}
 
-		iterator operator+(const int count)
+		Iterator operator+(const int count)
 		{
-
+			Iterator temp = *this;
+			temp.ptr += count;
+			return temp;
 		}
 	};
 // iterator 공개 허용된 함수
 public:
-	using iterator = iterator;
+	using iterator = Iterator;
 	iterator begin() { return iterator(arr); }
 	iterator end() { return begin() + size; }
 // Container 자료구조의 기능 구현
@@ -69,7 +89,7 @@ public:
 	{
 		arr = new T[_size];
 		size = 0;
-		capacity = 0;
+		capacity = _size;
 	}
 
 	void push_back(T data)
@@ -123,5 +143,55 @@ void IteratorExample()
 	myCon.push_back(20);
 	myCon.push_back(30);
 
-	//auto it = myCon.begin();
+	/*Container<int>::iterator == auto*/ 
+	auto myIt = myCon.begin();
+
+	for (myIt; myIt != myCon.end(); myIt++)
+	{
+		std::cout << "Iterator로 출력한 데이터 결과문" << *myIt << std::endl;
+	}
+
+	// range base for loop
+	// 범위 기반 for 반복문
+	for (int& elem : myCon)
+	{
+		elem += 100;
+		std::cout << "범위 기반 결과문" << elem << std::endl;
+	}
+
+	myIt = myCon.begin();
+
+	for (myIt; myIt != myCon.end(); myIt++)
+	{
+		std::cout << "Iterator로 출력한 데이터 결과문" << *myIt << std::endl;
+	}
+
+	// auto : 자동으로 뒤에 있는 변수의 타입을 지정해준다
+	auto a = 10;
+	auto b = 0.1f;
+	auto c = 'c';
+	auto d = "hello";
+
+	std::cout << a << "," << b << "," << c << "," << d << "," << std::endl;
+
+	std::cout << "Item Class 사용 예시" << std::endl;
+
+	Container<Item> inventory;
+
+	Item item1(12.345, 1);
+	Item item2(32.167, 1);
+
+	inventory.push_back(item1);
+	inventory.push_back(item2);
+
+	Container<Item>::iterator itemIt = inventory.begin();
+
+	// iterator for 반복문
+	std::cout << "Item Iterator를 이용한 반복문" << std::endl;
+
+	for (itemIt; itemIt != inventory.end(); itemIt++)
+	{
+		(*itemIt).Print();
+	}
+
 }
