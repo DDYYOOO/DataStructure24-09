@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\MyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:MyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\CommandSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:CommandSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\MyDeque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:MyDeque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\lecture6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7C000E19-A8E0-404D-8441-5676D95B377D}|DataStructure.vcxproj|solutionrelative:lecture6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyQueue.h",
-              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\MyQueue.h",
-              "RelativeDocumentMoniker": "MyQueue.h",
-              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\MyQueue.h",
-              "RelativeToolTip": "MyQueue.h",
-              "ViewState": "AQIAAB4BAAAAAAAAAAAQwCwBAAAbAAAA",
+              "DocumentIndex": 1,
+              "Title": "MyDeque.h",
+              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\MyDeque.h",
+              "RelativeDocumentMoniker": "MyDeque.h",
+              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\MyDeque.h",
+              "RelativeToolTip": "MyDeque.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T07:04:48.236Z",
+              "WhenOpened": "2024-09-27T07:02:08.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommandSystem.h",
+              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\CommandSystem.h",
+              "RelativeDocumentMoniker": "CommandSystem.h",
+              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\CommandSystem.h",
+              "RelativeToolTip": "CommandSystem.h",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAALkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-27T08:04:51.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "lecture6.cpp",
-              "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\lecture6.cpp",
-              "RelativeDocumentMoniker": "lecture6.cpp",
-              "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\lecture6.cpp",
-              "RelativeToolTip": "lecture6.cpp",
-              "ViewState": "AQIAANIAAAAAAAAAAAAAAJUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-24T07:31:11.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "C:\\Users\\dongy\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure24-09\\DataStructure\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAARAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-23T06:59:43.694Z",
               "EditorCaption": ""
