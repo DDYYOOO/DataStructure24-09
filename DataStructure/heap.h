@@ -5,6 +5,7 @@
 #include<stdexcept>
 #include<algorithm>	// swap함수 내장
 
+
 // 자료구조를 이용해서 데이터를 잘 저장하는 방법을 배웠다
 // 자료구조들 안에 있는 데이터를 가장 빠르고, 효율적으로 사용하는 방법을 배워야 한다 -> 알고리즘
 
@@ -31,14 +32,17 @@
 class PriorityQueue
 {
 private:
-	std::vector<int> p_queue;
+	std::vector<int> heap;
 	
 	// 부모노드 < idx노드(새로 들어온 노드) -> 새로 들어온 노드swap = false
 	void heapifyUp(int idx)	// 마지막에 들어온 idx
 	{
-		//int a1 = 10;
-		//int a2 = 20;
-		//std::swap(a1, a2);
+		// 비교 :  새로 들어온 노드, 그 노드의 부모노드
+		while (heap[idx] > heap[(idx - 1) / 2])	// 새로 들어온 노드가 부모 노드보다 작다면 break;
+		{
+			std::swap(heap[idx], heap[(idx - 1) / 2]);
+			idx = (idx - 1) / 2;
+		}
 	}
 
 	// 마지막 원소 : size - 1 -> root
@@ -47,9 +51,79 @@ private:
 	// while, 비교
 	void heapifyDown(int idx) // 0
 	{
+		int size = heap.size();
+
+		while (1)
+		{
+			int largest = idx;
+			int left = (idx * 2) + 1;
+			int right = (idx * 2) + 2;
+
+			if (left < size && heap[largest] < heap[left])
+				largest = left;
+
+			if (right < size && heap[largest] < heap[right])
+				largest = right;
+
+			if (largest == idx)
+				break;
+
+			std::swap(heap[largest], heap[idx]);
+			idx = largest;
+		}
+
 
 	}
 
 public:
+	void Push(int _data)
+	{
+		heap.push_back(_data);
+		heapifyUp(heap.size() - 1);
+	}
+	int Pop()
+	{
+		// 예외처리
+		if (heap.empty())
+		{
+			throw std::out_of_range("힙이 비었습니다");
+		}
+
+		int root = heap[0];				// 1. 가장 큰 수를 root에 저장
+		heap[0] = heap.back();			// 3. 비어있는 root에 가장 마지막 원소를 대입 
+		heap.pop_back();				// 4. 가장 마지막 데이터의 공간이 비었다 pop_back
+		heapifyDown(0);					// 5. 힙의 특성에 맞게 재정렬
+
+		return root;					// 2. 리턴 시킨다.(최댓값 출력)
+	}
+
+	int top() const
+	{
+		if (heap.empty())
+		{
+			throw std::out_of_range("힙이 비었습니다");
+		}
+
+		return heap[0];
+	}
+	
+	bool empty() const { return heap.empty(); }
+	int size() const { return heap.size(); }
 
 };
+
+
+void PriorityQueueExample()
+{
+	PriorityQueue p_q;
+	p_q.Push(1);
+	p_q.Push(3);
+	p_q.Push(5);
+	p_q.Push(7);
+	p_q.Push(9);
+
+	while (!p_q.empty())
+	{
+		std::cout << "우선순위 큐 결과 : " << p_q.Pop() << std::endl;
+	}
+}

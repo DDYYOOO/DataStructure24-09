@@ -8,9 +8,12 @@
 #include"CommandSystem.h"
 #include"MyDeque.h"
 #include"iterator.h"
+#include"heap.h"
+
 
 int main()
 {
+	std::cout << "자료구조 강의" << std::endl;
 	//lecture1();
 	//Example01();
 	//lecture2();
@@ -24,6 +27,8 @@ int main()
 	//iQueueExample();
 	//CommandSystemExample();
 	//IDequeExample();
-	IteratorExample();
+	//IteratorExample();
+	//PriorityQueueExample();
+	lecture7();
 
 }

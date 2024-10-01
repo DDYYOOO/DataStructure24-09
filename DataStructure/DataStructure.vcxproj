@@ -134,6 +134,7 @@
     <ClCompile Include="lecture4.cpp" />
     <ClCompile Include="lecture5.cpp" />
     <ClCompile Include="lecture6.cpp" />
+    <ClCompile Include="lecture7.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="OT.cpp" />
