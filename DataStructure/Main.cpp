@@ -9,6 +9,7 @@
 #include"MyDeque.h"
 #include"iterator.h"
 #include"heap.h"
+#include"Tree.h"
 
 
 int main()
@@ -29,6 +30,7 @@ int main()
 	//IDequeExample();
 	//IteratorExample();
 	//PriorityQueueExample();
-	lecture7();
+	//lecture7();
+	TreeExample();
 
 }
