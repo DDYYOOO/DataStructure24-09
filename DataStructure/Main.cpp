@@ -11,7 +11,8 @@
 #include"heap.h"
 #include"Tree.h"
 #include"set.h"
-
+#include"MyMap.h"
+#include"HashTable.h"
 
 int main()
 {
@@ -32,7 +33,9 @@ int main()
 	//IteratorExample();
 	//PriorityQueueExample();
 	//lecture7();
-	TreeExample();
-	//SetExample();
+	//TreeExample();
+	SetExample();
+	//MapExample();
+	//HashExample();
 
 }
