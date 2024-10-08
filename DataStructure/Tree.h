@@ -171,11 +171,11 @@ private:
 		if (root == nullptr)
 			return root;
 		// 삭제할 노드를 찾는다
-		if (root->data < target)
+		if (root->data > target)
 		{
 			root->left = RemoveNode(root->left, target);
 		}
-		else if (root->data > target)
+		else if (root->data < target)
 		{
 			root->right = RemoveNode(root->right, target);
 		}
